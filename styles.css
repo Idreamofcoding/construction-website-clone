@@ -1,0 +1,304 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 25px;
+  padding-left: 25px;
+  padding-right: 25px;
+  padding-bottom: 10px;
+  background: rgb(110, 110, 110);
+}
+
+.header-left img {
+  width: 500px;
+  height: 200px;
+}
+
+.header-right .header-phonenumber {
+  display: flex;
+  align-items: center;
+  margin-top: 50px;
+  justify-content: flex-end;
+  background-color: black;
+  padding: 10px;
+  border-radius: 10px;
+  justify-content: space-between;
+}
+
+.header-right .header-phonenumber img {
+  width: 50px;
+  border-radius: 100%;
+}
+
+.header-text h3 {
+  font-size: 25px;
+}
+
+#h3-2 {
+  color: red;
+}
+
+header .header-right .header-phonenumber a {
+  color: red;
+  font-size: 40px;
+  text-decoration: none;
+}
+
+/* NAV */
+/* NAV */
+/* NAV */
+/* NAV */
+/* NAV */
+
+nav {
+  text-align: center;
+  background-color: green;
+  padding: 10px;
+}
+
+nav ul {
+  display: flex;
+  list-style: none;
+  justify-content: center;
+  justify-content: space-evenly;
+}
+
+nav ul li {
+  font-size: 20px;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: white;
+}
+
+nav ul li a:hover {
+  color: orange;
+  font-weight: bold;
+}
+
+/* LANDING */
+/* LANDING */
+/* LANDING */
+/* LANDING */
+/* LANDING */
+.landing img {
+  width: 100%;
+  max-height: 500px;
+  object-fit: cover;
+}
+
+/* LANDING WELCOME */
+/* LANDING WELCOME */
+/* LANDING WELCOME */
+/* LANDING WELCOME */
+/* LANDING WELCOME */
+.landing-welcome {
+  padding-top: 30px;
+  padding-bottom: 30px;
+  width: 90%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.landing-welcome h2 {
+  font-size: 38px;
+  color: green;
+  margin-bottom: 10px;
+}
+
+.landing-welcome p {
+  font-size: 18px;
+  line-height: 2rem;
+}
+
+/* LANDING VIDEO */
+/* LANDING VIDEO */
+/* LANDING VIDEO */
+/* LANDING VIDEO */
+/* LANDING VIDEO */
+
+.landing-video {
+  text-align: center;
+}
+
+.landing-video p {
+  font-size: 18px;
+  margin-bottom: 15px;
+}
+
+.landing-video video {
+  width: 70%;
+}
+
+/* LANDING AFtER VIDEO */
+/* LANDING AFtER VIDEO */
+/* LANDING AFtER VIDEO */
+/* LANDING AFtER VIDEO */
+/* LANDING AFtER VIDEO */
+
+.landing-after-video {
+  padding-top: 30px;
+  padding-bottom: 30px;
+  width: 90%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.landing-after-video h2 {
+  font-size: 38px;
+  color: green;
+  margin-bottom: 10px;
+}
+
+.landing-after-video p {
+  font-size: 18px;
+  line-height: 2rem;
+}
+
+/* BOXES */
+/* BOXES */
+/* BOXES */
+/* BOXES */
+/* BOXES */
+
+.boxes {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 25px;
+}
+
+.box {
+  background-color: lightgray;
+  border: 1px solid gray;
+  width: 350px;
+  /* margin-right: auto;
+    margin-left: auto; */
+  padding-top: 30px;
+  padding-left: 30px;
+  padding-right: 45px;
+  padding-bottom: 20px;
+}
+
+.box h2 {
+  margin-bottom: 15px;
+  font-size: 30px;
+}
+
+.box p {
+  margin-bottom: 20px;
+}
+
+#middlebox {
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+.box button {
+  background-color: red;
+  padding: 15px 50px;
+}
+
+.box button a {
+  text-decoration: none;
+  color: white;
+  font-family: "Courier New", Courier, monospace;
+}
+
+/* Address */
+/* Address */
+/* Address */
+/* Address */
+/* Address */
+/* Address */
+/* Address */
+
+.address {
+  height: 305px;
+  background-color: brown;
+  display: flex;
+  justify-content: center;
+  margin-top: 50px;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+.address-box {
+  color: white;
+  background-color: grey;
+  width: 400px;
+  border: 1px solid white;
+  padding-top: 15px;
+  padding-left: 15px;
+}
+
+.address-box-1 {
+  margin-right: 20px;
+}
+
+.address-box-2 {
+  margin-left: 20px;
+}
+
+.address-box h2 {
+  margin-bottom: 20px;
+}
+
+.address-box p {
+  line-height: 1.5rem;
+}
+
+.address-box ul li {
+  list-style: none;
+  line-height: 1.5rem;
+}
+
+/* FOOTER */
+/* FOOTER */
+/* FOOTER */
+/* FOOTER */
+/* FOOTER */
+/* FOOTER */
+/* FOOTER */
+footer {
+  background-color: green;
+  color: white;
+  text-align: center;
+  padding-top: 20px;
+  padding-bottom: 60px;
+}
+
+footer ul {
+  justify-content: center;
+  display: flex;
+  padding-bottom: 20px;
+}
+
+footer ul li {
+  list-style: none;
+}
+
+footer ul li a {
+  color: white;
+  text-decoration: none;
+}
+
+#footerul1 {
+  margin-left: 10px;
+  margin-right: 5px;
+}
+
+#footerul2 {
+  margin-left: 5px;
+  margin-right: 5px;
+}
+
+#footerul3 {
+  margin-left: 5px;
+  margin-right: 10px;
+}
